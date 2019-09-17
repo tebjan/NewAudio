@@ -111,6 +111,7 @@ namespace VL.NewAudio
                 log.WriteLine(line);
                 log.Flush();
                 lastEntry = line;
+                System.Diagnostics.Debug.WriteLine(line);
             }
         }
     }
